@@ -53,7 +53,7 @@
 
 ![img_6](IMG/img_6.png)
 
-4. Пишу манифест сервиса с именем nginx-multitool-svc в namespace netology. Применяю манифест:
+4. Пишу манифест Service с именем nginx-multitool-svc в namespace netology. Применяю манифест:
 
 ![img_7](IMG/img_7.png)
 
@@ -101,8 +101,12 @@ Deployment создан, проверю запущен ли под:
 
 Вижу, что под не запущен и находится в состоянии `Init:0/1`.
 
+Ссылка на манифест Deployment - https://github.com/DemoniumBlack/fedorchukds-devops-33-38/blob/main/SRC/nginx-init-deploy.yaml
+
 3 - 4. Создаю манифест Service, применяю его и проверю запустился ли под nginx:
 
 ![img_15](IMG/img_15.png)
 
 После запуска сервиса, запустился под с nginx.
+
+Ссылка на манифест Service - https://github.com/DemoniumBlack/fedorchukds-devops-33-38/blob/main/SRC/nginx-init-svc.yaml
